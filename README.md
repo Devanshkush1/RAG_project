@@ -1,4 +1,4 @@
-# RAG Project
+# RAG Project : Retrieval-Augmented Generation Pipeline
 
 ## Project Description
 This project implements a **Retrieval-Augmented Generation (RAG)** pipeline, designed to allow users to upload documents, query their content, and retrieve metadata. Built as part of an LLM Specialist Assignment, the system leverages modern AI and web technologies to provide an efficient and user-friendly experience for document-based question answering.
