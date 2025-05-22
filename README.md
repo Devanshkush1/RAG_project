@@ -20,7 +20,6 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline, des
 - **Embedding Model**: SentenceTransformer (`BAAI/bge-small-en-v1.5`) for generating text embeddings.
 - **LLM**: Gemini API (`gemini-1.5-flash`) for response generation.
 - **Document Processing**: PyPDF2 for PDF parsing, LangChain for text chunking.
-- **Containerization**: Docker and Docker Compose.
 - **Testing**: Pytest for unit and integration tests.
 
 ### Purpose
