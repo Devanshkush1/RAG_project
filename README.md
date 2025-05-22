@@ -1,4 +1,4 @@
-# RAG Project : Retrieval-Augmented Generation Pipeline
+# RAG Project: Retrieval-Augmented Generation Pipeline
 
 ## Project Description
 This project implements a **Retrieval-Augmented Generation (RAG)** pipeline, designed to allow users to upload documents, query their content, and retrieve metadata. Built as part of an LLM Specialist Assignment, the system leverages modern AI and web technologies to provide an efficient and user-friendly experience for document-based question answering.
@@ -25,3 +25,18 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline, des
 
 ### Purpose
 The project demonstrates a practical implementation of a RAG system, combining document retrieval with LLM-based response generation. It showcases skills in API development, vector search, AI integration, and containerization, making it suitable for applications requiring intelligent document querying.
+
+## Project Structure
+```plaintext
+RAG_Local/
+├── README.md             # Project overview, setup, and usage instructions
+├── requirements.txt      # Python package dependencies
+├── .gitignore            # Files and directories to ignore in version control
+├── src/                  # Source code directory
+│   └── main.py           # Main script containing the RAG pipeline code
+├── articles/             # Directory containing uploaded document files
+│   ├── test.txt          # Example text file
+│   └── sample.pdf        # Example PDF file
+├── tests/                # Directory for unit and integration tests
+│   └── test_main.py      # Test script for validating API endpoints
+└── metadata.json         # Stores metadata of uploaded documents
