@@ -11,7 +11,6 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline, des
   - `POST /upload-documents`: Upload documents for processing.
   - `POST /query`: Query the system with questions (e.g., `{"query": "What is AI?"}`).
   - `GET /documents`: Retrieve metadata of uploaded documents (e.g., filename, page count, upload timestamp).
-- **Containerization**: Includes a Docker setup with a `Dockerfile` and `docker-compose.yml` for easy local deployment and potential cloud deployment.
 - **Testing**: Includes basic unit and integration tests (`tests/test_main.py`) for validating document upload, querying, and metadata retrieval.
 
 ### Technologies Used
